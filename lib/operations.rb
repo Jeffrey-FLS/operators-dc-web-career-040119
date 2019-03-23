@@ -21,7 +21,7 @@ def not_safe?(speed)
     false
   end
   
-  speed < 40 && 60 < speed ?true :false
+  speed < 40 || 60 < speed ?true :false
 end
 	
 
